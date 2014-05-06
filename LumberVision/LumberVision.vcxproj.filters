@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="AlgLib">
+      <UniqueIdentifier>{c37d5083-db38-42c9-934f-e63a931787f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,12 +27,99 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ImageProcessingStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectBow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline2dHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectTwist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LumberVision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\interpolation.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\alglibinternal.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\alglibmisc.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\ap.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\dataanalysis.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\diffequations.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\fasttransforms.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\integration.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\linalg.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\optimization.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\solvers.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\specialfunctions.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib\cpp\src\statistics.cpp">
+      <Filter>AlgLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcessingStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectBow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline2dHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectTwist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardParams.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

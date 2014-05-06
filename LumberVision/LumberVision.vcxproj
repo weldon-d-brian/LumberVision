@@ -52,6 +52,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\alglib\cpp\src;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -67,6 +68,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\alglib\cpp\src;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,11 +81,40 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BoardParams.h" />
+    <ClInclude Include="DetectBow.h" />
+    <ClInclude Include="DetectTwist.h" />
+    <ClInclude Include="ImageProcessingStrategy.h" />
+    <ClInclude Include="Point2D.h" />
+    <ClInclude Include="Point3D.h" />
+    <ClInclude Include="Spline2dHelper.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector3D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\alglib\cpp\src\alglibinternal.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\alglibmisc.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\ap.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\dataanalysis.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\diffequations.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\fasttransforms.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\integration.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\interpolation.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\linalg.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\optimization.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\solvers.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\specialfunctions.cpp" />
+    <ClCompile Include="..\alglib\cpp\src\statistics.cpp" />
+    <ClCompile Include="BoardParams.cpp" />
+    <ClCompile Include="DetectBow.cpp" />
+    <ClCompile Include="DetectTwist.cpp" />
+    <ClCompile Include="ImageProcessingStrategy.cpp" />
     <ClCompile Include="LumberVision.cpp" />
+    <ClCompile Include="Spline2dHelper.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
